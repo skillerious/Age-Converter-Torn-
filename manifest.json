@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Age Converter and Container Expander",
+    "version": "1.0",
+    "description": "Expands the age container and converts age from days to years, months, and days.",
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
